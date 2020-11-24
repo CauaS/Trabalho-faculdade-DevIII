@@ -1,0 +1,49 @@
+:root {
+    --darkBlue: #1D3557;
+    --lightBlue: #457B9D;
+    --red: #E63946;
+    --gray: #C4C4C4;
+}
+.container-menu {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.container-menu .menu-area {
+    position: relative;
+
+    margin:0 20px; 
+
+    background-color: #fff;
+    height: 65vh;
+    width: 100%;
+    border-radius: 30px;
+
+    z-index: 10;
+}
+
+.container-menu .menu-area .menu-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: centers;
+
+    position: absolute;
+    top: -55px;
+    
+    width: 100%;
+    height: 150px;
+    z-index: 5;
+}
+
+.container-menu .menu-area .photo-menu {
+    position: absolute;
+    top: -400px;
+    left: 42%;
+    
+    width: 500px;
+    height: 500px;
+
+    z-index: 0;
+}

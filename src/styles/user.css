@@ -1,0 +1,67 @@
+.container-product { 
+    margin: 70px 100px;
+    position: relative;
+}
+.container-product .groupFields {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.container-product .groupFields .field-100 {
+    width:100%; 
+    margin-right: 21px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.container-product .groupFields .field-100:hover {
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.15);    
+}
+
+.container-product .groupFields .field {
+    margin-right: 21px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-product .groupFields .field:hover  {
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.15);    
+}
+.container-product .groupButton-save-back-user {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+.container-product .button-save {
+    cursor: pointer;
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    background: #1D3557;
+    color: #fff;
+    font-size: 22px;
+}
+.container-product .button-back {
+    cursor: pointer;
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background: #E63946;
+    color: #fff;
+    font-size: 22px;
+}
+.container-product .button-back:hover, .container-product .button-save:hover {
+    filter: brightness(1.32);
+    transform: translateY(-3px);
+}
